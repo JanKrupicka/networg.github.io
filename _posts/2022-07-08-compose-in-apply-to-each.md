@@ -1,19 +1,15 @@
 ---
 author: Ondrej Juda
-title: Remove variables from apply to each action.
+title: Remove variables from apply to each action
 date: '2022-06-27T15:00:00+0200'
 categories:
   - Power Platform
   - Power Automate
   - Optimization
 tags:
-  - Teams
-  - PowerApps
   - Power Automate
-  - Approval
   - Microsoft Flow
-  - Follow up
-  - Approval Follow up
+  - Optimization
 ---
 
 Using variables inside your flows can be quite handy. You can store data in them, update the data, and append it to string or array variables. There is one slight problem with them. When you want to set or use a variable inside of an apply to each action, it comes with a cost. You can't use concurrency/parallelism.
